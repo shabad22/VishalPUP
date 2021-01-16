@@ -9,6 +9,45 @@
     <!-- TAILWIND CSS -->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
+<style>
+    .dropbtn {;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+</style>
 
 <body>
 
@@ -17,29 +56,36 @@
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                 <!-- <img src="{{ url_for('static', filename='img/VGPhoto.jpg') }}" alt=""> -->
-                <img src="{{ url_for('static', filename='img/pupLogo.png') }}" fill="none" stroke="currentColor" stroke-linecap="round"
-                    stroke-linejoin="round" stroke-width="2" class="w-20 h-20"
+                <img src="{{ url_for('static', filename='img/pupLogo.png') }}" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-20 h-20"
                     viewBox="0 0 24 24">
-                    <!-- <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> -->
+                <!-- <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> -->
                 </img>
                 <span class="ml-3 text-xl">Vishal Goyal</span>
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a class="mr-5 hover:text-gray-900">About</a>
                 <a class="mr-5 hover:text-gray-900" href="{{ url_for('awards') }}">Awards</a>
-                <a class="mr-5 hover:text-gray-900">Books</a>
-                <a class="mr-5 hover:text-gray-900">Interests</a>
                 <a class="mr-5 hover:text-gray-900">Patents</a>
                 <a class="mr-5 hover:text-gray-900">Publications</a>
                 <a class="mr-5 hover:text-gray-900">CopyRights</a>
-                <!-- <select class="mr-5 hover:text-gray-900">
-                    <option class="mr-5 hover:text-gray-900">1</option>
+                <div class="dropdown">
+                    <button class="dropbtn">Publication</button>
+                    <div class="dropdown-content">
+                        <a href="#">Books</a>
+                        <a href="#">Journals</a>
+                        <a href="#">Conferences</a>
+                    </div>
+                </div>
+                <select class="mr-5 hover:text-gray-900">
+                    <option class="mr-5 hover:text-gray-900"><a href='{{url_for("awards")}}'>Awards</a></option>
                     <option class="mr-5 hover:text-gray-900">2</option>
                     <option class="mr-5 hover:text-gray-900">3</option>
-                </select> -->
+                </select>
             </nav>
             <button
-                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a href="{{ url_for('contact') }}">Contact</a>
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a
+                    href="{{ url_for('contact') }}">Contact</a>
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
