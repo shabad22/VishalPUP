@@ -10,7 +10,7 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <style>
-    .dropbtn {;
+    .dropbtn {
         color: black;
         padding: 16px;
         font-size: 16px;
@@ -54,7 +54,7 @@
     <!-- NAVBAR -->
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="{{ url_for('index') }}">
                 <!-- <img src="{{ url_for('static', filename='img/VGPhoto.jpg') }}" alt=""> -->
                 <img src="{{ url_for('static', filename='img/pupLogo.png') }}" fill="none" stroke="currentColor"
                     stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-20 h-20"
@@ -66,17 +66,22 @@
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a class="mr-5 hover:text-gray-900">About</a>
                 <a class="mr-5 hover:text-gray-900" href="{{ url_for('awards') }}">Awards</a>
-                <a class="mr-5 hover:text-gray-900">Patents</a>
-                <a class="mr-5 hover:text-gray-900">Publications</a>
-                <a class="mr-5 hover:text-gray-900">CopyRights</a>
-                <div class="dropdown">
+                <!-- <div class="dropdown">
                     <button class="dropbtn">Publication</button>
                     <div class="dropdown-content">
                         <a href="#">Books</a>
                         <a href="#">Journals</a>
                         <a href="#">Conferences</a>
                     </div>
-                </div>
+                </div> -->
+                <!-- <div class="dropdown">
+                    <button class="dropbtn">More</button>
+                    <div class="dropdown-content">
+                        <a href="#">Patents</a>
+                        <a href="#">TradeMarks</a>
+                        <a href="#">CopyRights</a>
+                    </div>
+                </div> -->
             </nav>
             <button
                 class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a
@@ -96,73 +101,33 @@
     <!-- FOOTER -->
     <footer class="text-gray-600 body-font">
         <div
-            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-center md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left justify-center">
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Publications</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                            <a class="text-gray-600 hover:text-gray-800" href="{{ url_for('books') }}">Books</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                            <a class="text-gray-600 hover:text-gray-800">Journals</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                            <a class="text-gray-600 hover:text-gray-800">Conferences</a>
                         </li>
                     </nav>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Rights</h2>
                     <nav class="list-none mb-10">
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                            <a class="text-gray-600 hover:text-gray-800">Patents</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                            <a class="text-gray-600 hover:text-gray-800">TradeMarks</a>
                         </li>
                         <li>
-                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                        </li>
-                    </nav>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                    <nav class="list-none mb-10">
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                        </li>
-                    </nav>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                    <nav class="list-none mb-10">
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-                        </li>
-                        <li>
-                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                            <a class="text-gray-600 hover:text-gray-800">CopyRights</a>
                         </li>
                     </nav>
                 </div>

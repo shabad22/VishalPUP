@@ -20,3 +20,7 @@ def contact():
 @app.route('/awards')
 def awards():
     return render_template('awards.html')
+
+@app.route('/books')
+def books():
+    return render_template('books.html')
