@@ -1,0 +1,43 @@
+1.	Development of Machine Translation Software for automatic translation of English Text to ISL Synthetic animations.
+2.	Development of Plagiarism Detection Software for Hindi texts.
+3.	HMM Based Punjabi Chunker
+4.	Development of English-Punjabi Parallel Corpus and its management tool
+5.	Automatic Question Generation System for Punjabi
+6.	English↔Punjabi Machine Transliteration System
+7.	Automatic Extraction of MWEs from English-Punjabi Parallel Corpus
+8.	Development of Text Prediction System for Somali Language
+9.	Development of Text Prediction System for Amrahic Language
+10.	SMT Post Editing System for SMT Based Hindi to Punjabi MT System
+11.	Development of Hindi to Punjabi Machine Translation System using Statistical Approach.
+12.	Quantitative analysis of websites developed in Hindi and Punjabi.
+13.	Development of a system for translating Technical Hindi text into Punjabi.
+14.	Development of Plagiarism Detection Software for Punjabi texts.
+15.	Computerization of Research Cell, Punjabi University, Patiala
+16.	Computerization of Alumni Association, Punjabi University, Patiala
+17.	Computerization of Board Of Studies Meeting Process, Department of Computer Science, Punjabi University, Patiala.
+18.	Department of Computer Science Website
+19.	Department of Computer Science Placement Cell
+20.	Developed Hindi to Punjabi Machine Translation System with an accuracy of about 90% available online for use at website http://h2p.learnpunjabi.org. Copyrighted in 2011.
+21.	Automatic Sentence Alignment Of Bilingual Parallel Corpora For Hindi-Punjabi Language
+22.	Extraction of Collocations in Hindi Text Corpus
+23.	Hindi Morphological analyzer and generator (Windows Based)
+24.	Extracting Proverb From Hindi Text And Translating it into Punjabi Text
+25.	Hindi to Punjabi Transliteration System
+26.	Development of Algorithm for Sandhi Viched of Compound Hindi Words.
+27.	Development of N-Gram Algorithm solution for Hindi Word Sense Disambiguation
+28.	Development Of An Algorithm For Unsupervised Learning Of Morphology For Hindi Language
+29.	Development of Algorithm for Hindi Text Normalization
+30.	Development of algorithm for extracting Named Entities from Hindi Text
+31.	Development of Font Converter for Non Unicode Hindi text to Unicode Encoding and reverse
+32.	Development of Improved Algorithm for Automatic Word Alignment for Hindi-Punjabi Parallel Corpus
+33.	Development of Hindi-Punjabi Parallel Corpus using existing Hindi to Punjabi Machine Translation System
+34.	Development of Name Entity Recognition System for Hindi Corpus 
+35.	Development of Sentiment analyzer for Punjabi.
+36.	Development of Punjabi to English transliteration system for common nouns.
+37.	Development of a system for extracting Hindi Proverbs from Hindi text and translating in Punjabi.
+38.	Development of Hindi Stemmer (Windows Based) for handling OOV words in Hindi to Punjabi MT System
+39.	Development of Hindi text automatic Font Identification and converting it into Unicode.
+40.	Development of Extracting Named Entities from Urdu text.
+41.	Development of Hindi POS Tagger (Windows based)
+42.	Development of Urdu to Punjabi Machine Translation System using hybrid approach.
+43.	Development of Software for Converting Text to ISL video for deaf and dumb persons.

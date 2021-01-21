@@ -1,0 +1,7 @@
+1. Big Data Analytics and Intelligence: A Perspective for Health Care, Emerald Publishing Limited, ISBN: 9781839091001
+2. Modern Techniques for Agricultural Disease Management and Crop Yield Prediction, IGI Global, ISBN: 9781522596332
+3. “Research and Publication Ethics”, Shroff Publication and Distributors”. Under Publication. 
+4. “A Simplified Approach to Data Structures”, Shroff Pub & Dist. Pvt. Ltd, ISBN : 9789351105312
+5. Information Systems for Indian languages, Springer CCIS 139, Germany, ISBN: 978-3-642-19402-3, ISSN:1865-0929.
+6. Hindi to Punjabi Machine Translation System- MT System between Closely related Language Pair, Lambert Academic Publishing, Germany, ISBN : 978-3-8433-7267-1
+7. “Introduction to Computer Education”, Twenty First Century Publications.
