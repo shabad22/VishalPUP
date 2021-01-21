@@ -58,6 +58,40 @@ def patent():
 
     return render_template('patent.html', patents = patents)
 
+@app.route('/mhrd')
+def mhrd():
+
+    mhrds = open("Data/mhrd.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('mhrd.html', mhrds = mhrds)
+
+@app.route('/research')
+def research():
+
+    researchs = open("Data/research.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('research.html', researchs = researchs)
+
+@app.route('/keynote')
+def keynote():
+
+    keynotes = open("Data/keynote.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('keynote.html', keynotes = keynotes)
+
+@app.route('/resource')
+def resource():
+
+    resources = open("Data/resource.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('resource.html', resources = resources)
+
+@app.route('/chaired')
+def chaired():
+
+    chaireds = open("Data/chaired.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('chaired.html', chaireds = chaireds)
 
 @app.route('/trademark')
 def trademark():
@@ -87,3 +121,11 @@ def conference():
     national_conferences = open("Data/national_conferences.txt", "r", encoding="utf-8").readlines()
 
     return render_template('conferences.html', international_conferences = international_conferences, national_conferences = national_conferences)
+
+@app.route('/project')
+def project():
+
+    mhrds = open("Data/mhrd.txt", "r", encoding="utf-8").readlines()
+    researches = open("Data/researches.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('projects.html', mhrds = mhrds, researches = researches)
