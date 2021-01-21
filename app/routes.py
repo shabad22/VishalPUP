@@ -11,7 +11,10 @@ def index():
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
+
+    biodata = open('Data/about.txt', "r", encoding="utf-8").readlines()
+
+    return render_template('about.html', biodata=biodata)
 
 @app.route('/contact')
 def contact():
