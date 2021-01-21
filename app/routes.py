@@ -19,8 +19,40 @@ def contact():
 
 @app.route('/awards')
 def awards():
-    return render_template('awards.html')
+    awards = open("Data/awards.txt",'r',encoding='utf-8')
+    awards = awards.readlines()
+    return render_template('awards.html',awards = awards)
 
 @app.route('/books')
 def books():
-    return render_template('books.html')
+    books = open("Data/books.txt",'r',encoding='utf-8')
+    books = books.readlines()
+    return render_template('books.html',books = books)
+
+@app.route('/journals')
+def journals():
+
+    journals = open("Data/journals.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('journals.html', journals = journals)
+
+@app.route('/software')
+def software():
+
+    softwares = open("Data/software.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('software.html', softwares = softwares)
+
+@app.route('/membership')
+def membership():
+
+    memberships = open("Data/membership.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('memberships.html', memberships = memberships)
+
+@app.route('/workshop')
+def workshop():
+
+    workshops = open("Data/workshop.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('workshops.html', workshops = workshops)
