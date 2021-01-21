@@ -43,6 +43,29 @@ def software():
 
     return render_template('software.html', softwares = softwares)
 
+@app.route('/copyright')
+def copyright():
+
+    copyrights = open("Data/copyright.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('copyright.html', copyrights = copyrights)
+
+
+@app.route('/patent')
+def patent():
+
+    patents = open("Data/patent.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('patent.html', patents = patents)
+
+
+@app.route('/trademark')
+def trademark():
+
+    trademarks = open("Data/trademark.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('trademark.html', trademarks = trademarks)
+
 @app.route('/membership')
 def membership():
 
@@ -56,3 +79,11 @@ def workshop():
     workshops = open("Data/workshop.txt", "r", encoding="utf-8").readlines()
 
     return render_template('workshops.html', workshops = workshops)
+
+@app.route('/conference')
+def conference():
+
+    international_conferences = open("Data/international_conferences.txt", "r", encoding="utf-8").readlines()
+    national_conferences = open("Data/national_conferences.txt", "r", encoding="utf-8").readlines()
+
+    return render_template('conferences.html', international_conferences = international_conferences, national_conferences = national_conferences)

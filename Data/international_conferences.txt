@@ -1,0 +1,20 @@
+1.	Singh, M., Goyal, V., & Raj, S. (2019, November). Sentiment Analysis of English-Punjabi Code Mixed Social Media Content for Agriculture Domain. In 2019 4th International Conference on Information Systems and Computer Networks (ISCON) (pp. 352-357). IEEE.
+2.	Mamoon Rashid, Mir Mohammad Yousuf, Balwant Ram, Vishal Goyal, “Novel Big Data Approach for Drug Prediction in Health Care Systems”, International Conference on Automation, Computational and Technology Management (ICACTM-2019), IEEE Conference, United Kingdom and Ireland Section, Record number: #45379, Scopus, In Press , March 2019. Paper ID: 185.
+3.	Lalit Goyal, Vishal Goyal, “Automatic Translation of English Text to Indian Sign Language Synthetic Animations”, in 13th International Conference on Natural Language Processing (ICON 2016) held on December 17-20, 2016 organized by Indian Institute of Technology (Banaras Hindu University), India.
+4.	Lalit Goyal, Vishal Goyal, “Grammar Rules for automatic conversion of English to Indian Sign Language”, in 104th Indian Science Congress held on January 3-7, 2017 at Sri Venkateswara University, Tirupati, India.
+5.	Vishal Goyal, “HMM Chunker for Punjabi”, Third Regional Conference on Natural Language Processing, regICON 2015, September 18-19,2015.
+6.	Shikha Garg, Vishal Goyal, Automatic Question Answer Generation System, LTC 2013, Poland (In process of publication in Springer Journal).
+7.	Anu Sharma, Vishal Goyal, Opining Mining for Punjabi, LTC 2013, Poland.
+8.	Ajit Kumar, Vishal Goyal, “Practical Approach for developing Hindi-Punjabi Parallel Corpus”, In Proceedings of LREC 2012 Istanbul, pp. 65-69. (Indexed in Conference Proceedings in Thomson Reuters)
+9.	Vishal Goyal, Rajesh Mahajan, The Impact of  Globalization on Child Labour, International Conference on Human Rights in the age of globalization, India, Nov. 19-21, 2005,183
+10.	Vikram Singh, Vishal Goyal, Sapna Mehta, “Aspects of Information Security – A Multi Layered Approach, Challenges in Networking and Future of e-Commerce”, India, April 09-10,2005,144-151
+11.	Vikram Singh, Vishal Goyal, Sapna Mehta, “Mining E-Commerce Data, Challenges in Networking and Future of e-Commerce”, India, April 09-10,2005,286-293.
+12.	Vishal Goyal, Vinay Chopra, Rajesh Mahajan, “Effective Factors for retaining talent in IT and ITes Sector – A Survey”, International Conference on Services Management, India, March 11-12, 2005, 544-554
+13.	Vishal Goyal, Kamaljit Kaur, Vikram Sharma, “Segmentation of Hindi Character Recognition System”, ICCII -2005, India, Nov. 12,2005,94-96
+14.	Vishal Goyal, G.S.Lehal, “Hindi to Punjabi Machine translation System using Direct Approach” , International Conference on Trends in Information Sciences and Computing, organized by SATHYABAMA UNIVERSITY
+Jeppiaar Nagar, Chennai -119
+15.	Priyanka Gupta, Rajni Bansal, Vishal Goyal, Fully Automatic General Purpose High Quality Machine Translation System (FGH-MT) – Is it a reality?, ICACCT 2007, APIIT, Panipat.
+16.	Charankanwal Singh Sodhi, Vishal Goyal, Shalu Jindal, “The Role of ICT in Distance Learning”, ICACCT 2007, APIIT, Panipat.
+17.	Vishal Goyal, Gurpreet Singh Lehal, “ Hindi Morphological Analyzer and generator”, ICETET-08, G.H.Raisoni College of Engineering, Nagpur, INDIA, 16-19th July, 2008.
+18.	Lakhbir Singh Garcha, Vishal Goyal, “Automatic Aligning of Hindi Punjabi Parallel Corpus at Word Level”, IACC-09, Thapar University, Patiala, 6-7 March 2009.
+19.	Lakhbir Singh Garcha, Vishal Goyal, “A Hybrid Word Alignment Approach for Hindi-Punjabi Parallel Text”, DCIT-09, PCTE, Ludhiana,22nd May 2009.

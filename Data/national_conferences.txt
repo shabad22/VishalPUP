@@ -1,0 +1,22 @@
+1.	Lalit Goyal, Vishal Goyal, “Text to Sign Language-A Review of Literature”, in 2-days National Conference on Recent Trends and Technologies in Data Science & Artificial Intelligence (NCTDA-2016) held on August 26-27, 2016 organized by Department of Computer Science & IT, Bhaderwah Campus, University of Jammu. 
+2.	Vishal Goyal, Vinay Chopra, Mukesh Dhingra, Open Source Operating System for Embedded Systems, U.G.C. Sponsored National Seminar on Embedded Systems, India, Jan 24-25, 2005, 24-29
+3.	Vikram Singh, Vishal Goyal, P.K.Suri, E-Governance Framework in Haryana, RAFIT 2005, India, March 2-3,2005, 210
+4.	Vikram Singh,Vishal Goyal,Sapna Mehta, Impact of Internet on Business, RAFIT 2005, India, March 2-3,2005,215
+5.	Vikram Singh,Vishal Goyal,Rasheed Khan, Misconceptions about E-Governance in India, RAFIT 2005, India, March 2-3,2005,219
+6.	Vishal Goyal, Dheeraj Jain, DNA Computing – An Emerging Trend, UGC Sponsored National Seminar on Recent Technologies in IT, India, 29 Sept.,2005, 86
+7.	Vishal Goyal (Young Scientist Award Winner), Computing Xn using DNA Strands, 8th Punjab Science Congress, India, February 7-9,2005, 139
+8.	Vishal Goyal, Challenges and Future  to online Education, E-Contents on EDUSAT, India, February 4-5 ,2005, Proceedings on CD
+9.	Vishal Goyal, KM Approach to E-Governance, Knowledge Management, India, Dec. 4-5 2004, ,95
+10.	Vishal Goyal, Ravinder Jindal, Ritu Gupta, Challenges to Online Education, Quest for Excellence in HE, India, November 20,2004,93-107
+11.	Vishal Goyal, Vinay Chopra, Sunil Khullar, Application of Quantum Computing in Wireless Ad Hoc Networks, Issues and Trends in Wireless Networks , India, Dec. 17-18, 2004,48
+12.	Vishal Goyal, Expert System, Communication and Embedded Systems, India, March 12,2004, 108
+13.	Vishal Goyal, Machines, Logic And  Quantum Physics, Communication and Embedded Systems , India, March 12,2004, 210
+14.	Vishal Goyal, Mamta Verma, Impact of ICT on Education, IT: Pathway for Transformation of Society, India, March 13-14,2004, 461
+15.	Vishal Goyal, Sumit Kaushik, LPC: A Speech coding method based on human speech production, Modern Trends in Information and Communication Technology, India, Oct. 20-22,2005,156
+16.	Gurdarshan Singh, Vishal Goyal, Gurpreet Singh Josan, Survey of various sentence alignment algorithms for Parallel Copora, RAFIT 2007,Department of Computer Science, Punjabi University, Patiala
+17.	Vishal Goyal, Dolly Watta, Standarizing Hindi Text, IEEE National Conference on Application of Intelligent Systems, (AIS-2008), Hindu College of Engineering, Sonepat.
+18.	Vishal Goyal, Archana Garg, Narinder Kumar, Word Sense Disambiguation, Futuristic Trends in Engineering and Technology organized by Jan Nayak Ch. Devi Lal Memorial College of Engineering, Sirsa.
+19.	Aarti Rana, Vishal Goyal, Relative Study of Software Cost Estimating Methods, 11th Punjab Science Congress organized by Thapar University, Patiala.
+20.	Vishal Goyal, “Survey of various sentence alignment algorithms for Parallel Corpora” , Souvenir M.M.Modi College, Patiala.
+21.	Priyanka Gupta, Vishal Goyal ,“Survey of various POS Taggers: A case study of Hindi language” RAFIT 2009, Punjabi University, Patiala, 9-10 April,2009.
+22.	Sukhpal Kaur, Vishal Goyal, “Survey of various Unsupervised Algorithms for automatic generation of Hindi Corpus”, RAFIT 2009, Punjabi University, Patiala, 9-10 April,2009.
